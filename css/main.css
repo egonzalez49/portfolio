@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* entire site inside this div */
+.site-container {
+  margin: 32px auto;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 1200px;
+}
+
+/* the navigation bar along with responsiveness */
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-container img {
+  position: fixed;
+  right: 10%;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+/* the header with name and icons */
+.header-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 6em;
+}
+
+.header-name {
+  margin-bottom: 0.75em;
+}
+
+/* icons below name in header */
+.icon-container > li {
+  display: inline;
+}
+
+.icon-container img {
+  cursor: pointer;
+  width: 8%;
+}
+
+.icon-container li:last-child {
+  margin-left: 1.5em;
+}
+
+/* the word animation container */
+.cycling-word-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 6em;
+}
+
+.i-am {
+  align-self: center;
+  padding-top: 0.3em;
+  margin-right: 1em;
+}
+
+.cycling-word {
+  align-self: flex-end;
+  color: #8685ef;
+}
+
+/* quote beneath the word animation */
+.quote-container {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 6em;
+}
+
+.quote {
+  align-self: center;
+  font-size: 0.9em;
+}
+
+.quote-cite {
+  margin-top: 1em;
+  align-self: flex-end;
+}
+
+/* about me section */
+.about-container {
+  margin-top: 6em;
+}
+
+/* anything to do with headers */
+.header {
+  position: relative;
+}
+
+/* decorative header line */
+.header:after {
+  content: '';
+  width: 100%;
+  border-bottom: solid 1px #333;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+}
+
+.header-text {
+  background-color: #fff; /* Same as the parents Background */
+  color: #8685ef;
+  width: auto;
+  display: inline-block;
+  padding: 0 0.6em;
+  z-index: 2;
+  position: relative;
+}
+
+.about-text {
+  margin-top: 2em;
+}
+
+.skills-container {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills-icon-container {
+  flex-basis: 25%;
+  align-self: center;
+  margin: 1em 0;
+}
