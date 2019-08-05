@@ -15,6 +15,11 @@ ul {
   list-style-type: none;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* entire site inside this div */
 .site-container {
   margin: 32px auto;
@@ -146,4 +151,55 @@ ul {
   flex-basis: 25%;
   align-self: center;
   margin: 1em 0;
+}
+
+.project-container {
+  margin-top: 6em;
+}
+
+.project-item {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-item h2 {
+  font-size: 1.5em;
+}
+
+.project-item img {
+  margin-top: 1em;
+  max-width: 100%;
+  width: 100%;
+}
+
+.project-item p {
+  margin-top: 1em;
+}
+
+.project-links {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  cursor: pointer;
+  font-weight: bold;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.project-button {
+  color: #8685ef;
+  border: 2px solid #8685ef;
+}
+
+.project-button-alt {
+  color: #fff;
+  border: none;
+  background-color: #8685ef;
 }

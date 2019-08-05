@@ -1,10 +1,10 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://egonzalez49.github.io",
+  "homepage": "https://egonzalez49.github.io/portfolio/",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.1.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
