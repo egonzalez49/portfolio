@@ -25,7 +25,6 @@ a {
   margin: 32px auto;
   width: 80%;
   text-align: center;
-  margin-bottom: 1200px;
 }
 
 /* the navigation bar along with responsiveness */
@@ -74,17 +73,71 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 6em;
+  flex-direction: column;
 }
 
 .i-am {
   align-self: center;
-  padding-top: 0.3em;
-  margin-right: 1em;
 }
 
 .cycling-word {
-  align-self: flex-end;
+  align-self: center;
   color: #8685ef;
+  position: relative;
+  width: 100%;
+}
+
+.cycling-word span {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  right: 0%;
+  animation: animate 10s linear infinite;
+  opacity: 0;
+}
+
+.cycling-word span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.cycling-word span:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.cycling-word span:nth-child(3) {
+  animation-delay: 4s;
+}
+
+.cycling-word span:nth-child(4) {
+  animation-delay: 6s;
+}
+
+.cycling-word span:nth-child(5) {
+  animation-delay: 8s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  2% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  18% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  20% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
 }
 
 /* quote beneath the word animation */
@@ -172,6 +225,7 @@ a {
   margin-top: 1em;
   max-width: 100%;
   width: 100%;
+  border: 2px solid #333;
 }
 
 .project-item p {
