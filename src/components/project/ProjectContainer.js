@@ -38,7 +38,7 @@ const projects = [
   {
     title: 'atlanta beltline gui',
     description:
-      'A desktop application allowing users and admins to interact with a database via a GUI.',
+      'A desktop application allowing users and admins to interact with a database via a GUI for ATL Beltline activities.',
     image: BeltlineImage,
     codeLink: 'https://github.com/egonzalez49/Beltline-Database'
   }

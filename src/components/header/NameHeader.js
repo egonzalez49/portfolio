@@ -9,7 +9,9 @@ const NameHeader = () => {
       <div className="header-icon-links">
         <ul className="icon-container">
           <li>
-            <img src={GithubIcon} alt="github logo" />
+            <a href="https://github.com/egonzalez49">
+              <img src={GithubIcon} alt="github logo" />
+            </a>
           </li>
           <li>
             <img src={LinkedInIcon} alt="linkedin logo" />
