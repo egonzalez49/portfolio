@@ -9,6 +9,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: #333;
+  overflow-x: hidden;
 }
 
 ul {
@@ -22,6 +23,7 @@ a {
 
 /* entire site inside this div */
 .site-container {
+  height: 90%;
   margin: 32px auto;
   width: 80%;
   text-align: center;
@@ -30,12 +32,22 @@ a {
 /* the navigation bar along with responsiveness */
 .nav-container {
   display: flex;
+  background-color: #fff;
   justify-content: flex-end;
+  position: fixed;
+  width: 80%;
+  top: 0;
+  padding: 1.1em 0;
+  z-index: 5;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .nav-container img {
-  position: fixed;
-  right: 10%;
+  align-self: flex-end;
+  /* position: fixed;
+  top: 5%;
+  right: 10%; */
 }
 
 .hide-mobile {
@@ -72,7 +84,7 @@ a {
 .cycling-word-container {
   display: flex;
   justify-content: center;
-  margin-top: 6em;
+  margin-top: 8em;
   flex-direction: column;
 }
 
@@ -145,12 +157,11 @@ a {
   display: flex;
   align-content: center;
   flex-direction: column;
-  margin-top: 6em;
+  margin-top: 12em;
 }
 
 .quote {
-  align-self: center;
-  font-size: 0.9em;
+  align-self: left;
 }
 
 .quote-cite {
@@ -190,7 +201,7 @@ a {
 }
 
 .about-text {
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 .skills-container {
@@ -211,21 +222,22 @@ a {
 }
 
 .project-item {
-  margin-top: 1em;
+  margin-top: 2em;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.project-item h2 {
-  font-size: 1.5em;
+.project-title {
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 .project-item img {
   margin-top: 1em;
   max-width: 100%;
   width: 100%;
-  border: 2px solid #333;
+  border: 1px solid #333;
 }
 
 .project-item p {

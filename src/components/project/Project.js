@@ -20,7 +20,7 @@ const Project = ({ project }) => {
 
   return (
     <div className="project-item">
-      <h2>{title}</h2>
+      <p className="project-title">{title}</p>
       <img src={image} alt="personal project descriptor" />
       <p>{description}</p>
       {renderButtons()}

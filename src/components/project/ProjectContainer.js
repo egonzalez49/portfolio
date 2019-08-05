@@ -24,13 +24,14 @@ const ProjectContainer = () => {
 const projects = [
   {
     title: 'travely',
-    description: `Travely is a website dedicated to finding your next vacation spot and see what other people have rated locations.`,
+    description: `travely is a website dedicated to finding your next vacation spot and see what other people have rated locations.`,
     image: TravelyImage,
     codeLink: 'https://github.com/egonzalez49/travely'
   },
   {
     title: 'chatroom',
-    description: 'Real-time chatroom website using the MERN stack.',
+    description:
+      'real-time chatroom website using the mongodb, express, react and nodejs.',
     image: ChatroomImage,
     codeLink: 'https://github.com/egonzalez49/chatroom',
     liveLink: 'https://calm-taiga-20685.herokuapp.com/'
@@ -38,7 +39,7 @@ const projects = [
   {
     title: 'atlanta beltline gui',
     description:
-      'A desktop application allowing users and admins to interact with a database via a GUI for ATL Beltline activities.',
+      'a desktop application allowing users and admins to interact with a database via a GUI for ATL Beltline activities.',
     image: BeltlineImage,
     codeLink: 'https://github.com/egonzalez49/Beltline-Database'
   }

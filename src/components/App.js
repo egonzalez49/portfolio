@@ -8,14 +8,18 @@ import ProjectContainer from './project/ProjectContainer';
 
 const App = () => {
   return (
-    <div className="site-container">
-      <Navbar />
-      <NameHeader />
-      <CyclingWord />
-      <Quote />
-      <AboutContainer />
-      <ProjectContainer />
-    </div>
+    <>
+      <div>
+        <Navbar />
+      </div>
+      <div className="site-container">
+        <NameHeader />
+        <CyclingWord />
+        <Quote />
+        <AboutContainer />
+        <ProjectContainer />
+      </div>
+    </>
   );
 };
 
