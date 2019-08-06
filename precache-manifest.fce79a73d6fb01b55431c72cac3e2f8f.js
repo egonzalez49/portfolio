@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aad7e9fb2b52c70944d05e6cda0ce635",
+    "revision": "a7b5489474ac9a33d262a622cd2963e4",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "250073731643ab9d96cb",
-    "url": "/portfolio/static/js/2.b36b8ca1.chunk.js"
+    "revision": "165f828c9cec19341866",
+    "url": "/portfolio/static/js/2.4208813b.chunk.js"
   },
   {
-    "revision": "6786b2267ddd419bdb4d",
-    "url": "/portfolio/static/js/main.b3f3b2e6.chunk.js"
+    "revision": "8c3ef969b6861ea0f15f",
+    "url": "/portfolio/static/js/main.a05ebb22.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4947270797e677467572bba180a4596e",
     "url": "/portfolio/static/media/express.49472707.svg"
+  },
+  {
+    "revision": "d7885a2e22facad435a640f40c96843c",
+    "url": "/portfolio/static/media/forbidden-mark.d7885a2e.svg"
   },
   {
     "revision": "8cd1cd6c435fff960323b0fde3f56ca2",
