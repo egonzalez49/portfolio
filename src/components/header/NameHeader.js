@@ -14,7 +14,9 @@ const NameHeader = () => {
             </a>
           </li>
           <li>
-            <img src={LinkedInIcon} alt="linkedin logo" />
+            <a href="https://www.linkedin.com/in/elmer-gonzalez-25a09512b/">
+              <img src={LinkedInIcon} alt="linkedin logo" />
+            </a>
           </li>
         </ul>
       </div>
