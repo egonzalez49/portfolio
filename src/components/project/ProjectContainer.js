@@ -7,7 +7,7 @@ import Project from './Project';
 const ProjectContainer = () => {
   const renderProjects = () => {
     return projects.map(project => {
-      return <Project project={project} />;
+      return <Project key={project.title} project={project} />;
     });
   };
 

@@ -9,10 +9,11 @@ import ProjectContainer from './project/ProjectContainer';
 const App = () => {
   return (
     <>
-      <div>
+      {/* <div>
         <Navbar />
-      </div>
+      </div> */}
       <div className="site-container">
+        <Navbar />
         <NameHeader />
         <CyclingWord />
         <Quote />
