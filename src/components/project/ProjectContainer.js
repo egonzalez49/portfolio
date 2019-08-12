@@ -1,4 +1,5 @@
 import React from 'react';
+import StrackerImage from '../../images/projects/stracker1.png';
 import TravelyImage from '../../images/projects/travely1.png';
 import ChatroomImage from '../../images/projects/chatroom1.png';
 import BeltlineImage from '../../images/projects/beltline1.jpg';
@@ -22,6 +23,14 @@ const ProjectContainer = () => {
 };
 
 const projects = [
+  {
+    title: 'stracker',
+    description:
+      'accounts stats tracker and in-game shop updates for the popular game Fortnite.',
+    image: StrackerImage,
+    codeLink: 'https://github.com/egonzalez49/Stracker',
+    liveLink: 'https://still-gorge-96879.herokuapp.com'
+  },
   {
     title: 'travely',
     description: `travely is a website dedicated to finding your next vacation spot and see what other people have rated locations.`,
