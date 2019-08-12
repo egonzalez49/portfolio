@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ffe8de385683b99392f24865149d9d4",
+    "revision": "a3d7730425b1512c907f7b86599db526",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "165f828c9cec19341866",
-    "url": "/portfolio/static/js/2.4208813b.chunk.js"
+    "revision": "8fa9e643b482489f5bda",
+    "url": "/portfolio/static/js/2.ba3c82d4.chunk.js"
   },
   {
-    "revision": "f39684e6544ef294f79d",
-    "url": "/portfolio/static/js/main.47ff5dae.chunk.js"
+    "revision": "12336a5f4a24bfda67f8",
+    "url": "/portfolio/static/js/main.edfa3c65.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a571614936148475aa3533800e5d9127",
     "url": "/portfolio/static/media/sass.a5716149.svg"
+  },
+  {
+    "revision": "6c78d8c17d7d8be73924e5496ce2cb51",
+    "url": "/portfolio/static/media/stracker1.6c78d8c1.png"
   },
   {
     "revision": "1ba280b9d186d9524d14d78a9771892a",
