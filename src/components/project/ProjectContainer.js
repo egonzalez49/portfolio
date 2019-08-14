@@ -13,7 +13,7 @@ const ProjectContainer = () => {
   };
 
   return (
-    <div className="project-container">
+    <div id="projects" className="project-container">
       <div className="header">
         <h2 className="header-text">my projects</h2>
       </div>
@@ -26,21 +26,21 @@ const projects = [
   {
     title: 'stracker',
     description:
-      'accounts stats tracker and in-game shop updates for the popular game Fortnite.',
+      'an account stats tracker and in-game shop updates for the popular game Fortnite.',
     image: StrackerImage,
     codeLink: 'https://github.com/egonzalez49/Stracker',
     liveLink: 'https://still-gorge-96879.herokuapp.com'
   },
   {
     title: 'travely',
-    description: `travely is a website dedicated to finding your next vacation spot and see what other people have rated locations.`,
+    description: `website dedicated to finding your next vacation spot and seeing what other people have rated locations.`,
     image: TravelyImage,
     codeLink: 'https://github.com/egonzalez49/travely'
   },
   {
     title: 'chatroom',
     description:
-      'real-time chatroom website using the mongodb, express, react and nodejs.',
+      'real-time chatroom website allowings users to create their personalized chat experiences.',
     image: ChatroomImage,
     codeLink: 'https://github.com/egonzalez49/chatroom',
     liveLink: 'https://calm-taiga-20685.herokuapp.com/'
@@ -48,7 +48,7 @@ const projects = [
   {
     title: 'atlanta beltline gui',
     description:
-      'a desktop application allowing users and admins to interact with a database via a GUI for ATL Beltline activities.',
+      'a database GUI dedicated to information input related to activities, sites, and transportation around the Atlanta Betline by visitors or staff.',
     image: BeltlineImage,
     codeLink: 'https://github.com/egonzalez49/Beltline-Database'
   }

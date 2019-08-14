@@ -1,0 +1,118 @@
+@import 'variables';
+@import 'nav';
+@import 'home';
+@import 'cyclingword';
+@import 'about';
+@import 'projects';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $sans-serif-font;
+  color: $black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: $black;
+  text-decoration: none;
+}
+
+.root {
+  position: absolute;
+  top: 0;
+}
+
+/* entire site inside this div */
+.site-container {
+  overflow-x: hidden;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+@media only screen and (min-width: 630px) {
+  .site-container {
+    width: 70%;
+  }
+
+  .sub-header-text:after {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .skill {
+    flex: 0 30%;
+  }
+
+  .links-icon {
+    width: 32px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hide-desktop {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+
+  .hide-mobile {
+    display: inherit;
+  }
+
+  .nav-list ul li a {
+    cursor: pointer;
+  }
+
+  .header-text {
+    margin-top: 1em;
+    font-size: 2.5rem;
+  }
+
+  .header-name {
+    font-size: 3rem;
+  }
+
+  .quote-container {
+    margin-top: 11em;
+  }
+
+  .sub-header-text {
+    font-size: 1.5em;
+  }
+
+  .about-text {
+    width: 60%;
+  }
+
+  .skills-list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .project-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .button {
+    width: 25%;
+  }
+}

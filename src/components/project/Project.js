@@ -20,9 +20,15 @@ const Project = ({ project }) => {
 
   return (
     <div className="project-item">
-      <p className="project-title">{title}</p>
-      <img src={image} alt="personal project descriptor" />
-      <p>{description}</p>
+      <p className="project-title sub-header-text">{title}</p>
+      {/* <div
+        style={{ backgroundImage: `url(${image})` }}
+        className="project-image"
+      /> */}
+      <img src={image} alt="project showcase" />
+      <div className="about-text">
+        <p>{description}</p>
+      </div>
       {renderButtons()}
     </div>
   );

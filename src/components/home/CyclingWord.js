@@ -5,10 +5,10 @@ const CyclingWord = () => {
     <div className="cycling-word-container">
       <p className="i-am">i am a</p>
       <h2 className="cycling-word">
-        <span>web developer</span>
+        <span>frontend developer</span>
+        <span>backend developer</span>
         <span>programmer</span>
-        <span>student</span>
-        <span>designer</span>
+        <span>ui designer</span>
         <span>mobile developer</span>
       </h2>
     </div>

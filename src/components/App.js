@@ -1,22 +1,16 @@
 import React from 'react';
+
 import Navbar from './navbar/Navbar';
-import NameHeader from './header/NameHeader';
-import CyclingWord from './header/CyclingWord';
-import Quote from './header/Quote';
+import HomeContainer from './home/HomeContainer';
 import AboutContainer from './about/AboutContainer';
 import ProjectContainer from './project/ProjectContainer';
 
 const App = () => {
   return (
     <>
-      {/* <div>
-        <Navbar />
-      </div> */}
       <div className="site-container">
         <Navbar />
-        <NameHeader />
-        <CyclingWord />
-        <Quote />
+        <HomeContainer />
         <AboutContainer />
         <ProjectContainer />
       </div>

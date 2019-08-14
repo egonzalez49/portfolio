@@ -1,0 +1,101 @@
+@import 'variables';
+
+//container for introduction text
+.header-container {
+  margin-top: 8em;
+  font-family: $serif-font;
+}
+
+//'hi my name is' text
+.header-text {
+  //font-size: 2.5rem;
+  font-size: 2rem;
+}
+
+//my name
+.header-name {
+  //font-size: 3rem;
+  font-size: 2.28rem;
+  color: $blue;
+}
+
+//text below my name
+.header-info {
+  margin-top: 1.5em;
+  font-family: $sans-serif-font;
+}
+
+//##########################################
+
+.quote-container {
+  margin-top: 10em;
+}
+
+.quotation {
+  font-size: 1rem;
+  //margin: 0 auto;
+  quotes: '\201C''\201D''\2018''\2019';
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+
+.quotation:before {
+  content: open-quote;
+  display: inline;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 0.5em;
+  color: $grey;
+  font-size: 3em;
+}
+.quotation::after {
+  content: close-quote;
+  display: inline;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 0.5em;
+  color: $grey;
+  font-size: 3em;
+}
+
+//##########################################
+
+//links
+.links-container {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+
+  li {
+    padding: 0 1em;
+  }
+}
+
+//links icons
+.links-icon {
+  width: 25px;
+}
+
+//##########################################
+.scroll-container {
+  margin-top: 6em;
+
+  img {
+    width: 25px;
+    animation: move 1s infinite alternate;
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateY(0px);
+    }
+
+    100% {
+      transform: translateY(20px);
+    }
+  }
+}

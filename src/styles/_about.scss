@@ -1,0 +1,61 @@
+@import 'variables';
+
+//about section
+.about-container {
+  margin-top: 6em;
+}
+
+.header-text {
+  font-family: $serif-font;
+}
+
+.about-text {
+  margin: 0 auto;
+  width: 90%;
+  text-align: left;
+  margin-top: 2em;
+  line-height: 1.6em;
+}
+
+.sub-header-text {
+  margin-top: 2em;
+  font-family: $serif-font;
+  font-size: 1.3em;
+}
+
+.sub-header-text:after {
+  content: ''; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 50%; /* Change this to whatever width you want. */
+  padding-top: 20px; /* This creates some space between the element and the border. */
+  border-bottom: 1px solid $grey; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+//group of skills (ex: frontend)
+.skill-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+//individual skill w/ img
+.skill {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 40%;
+
+  p {
+    margin-top: 0.5em;
+    letter-spacing: 0.2em;
+  }
+}
