@@ -1,8 +1,6 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://egonzalez49.github.io/portfolio/",
-  "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
     "hamburgers": "^1.1.3",
