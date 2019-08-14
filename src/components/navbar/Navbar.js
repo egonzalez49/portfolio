@@ -25,7 +25,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <div className="navbar">
-        <a href="logo">
+        <a href="/">
           <img className="logo" src={Logo} alt="personal brand" />
         </a>
         <nav className="nav-list hide-mobile">
